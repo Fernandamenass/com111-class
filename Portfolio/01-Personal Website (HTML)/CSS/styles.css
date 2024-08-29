@@ -1,0 +1,155 @@
+@import url('https:://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+img {
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 2px 5px rgba(128, 0, 128, 0.2);
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.destination{
+    width: 640px;
+    height: 400px;
+    align-items: center;
+}
+
+.centerTXT{
+    text-align: center;
+}
+
+.JustTXT{
+    text-align: justify;
+}
+
+#sf{
+    background-color: rgb(255, 0, 149);
+}
+   
+.circularimg {
+    border-radius: 50%;
+    width: 200px;
+    margin: 50px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.vl {
+    border-left: 6px solid rgb(148, 39, 133);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+}
+
+.v2 {
+    border-left: 2px solid rgb(148, 39, 133);
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+}
+
+h1{
+    color: #800080; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2{
+    color: #800080; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #800080; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    color: #800080; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav{
+    max-width: 4000px;
+    margin: 10px;
+    background-color: hotpink;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+body{
+    background-image: url();
+    background-size: cover;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: lavender;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+    background-color: pink;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: thistle;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: blueviolet;
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+
+div {
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f7d1e3; /* Un color rosa claro para los bloques de contenido */
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #800080; /* Bordes morados */
+}
+
+hr{
+    color: #800080;
+}
+
+p{
+    padding: 15px;
+    text-align: justify;
+}
