@@ -6,11 +6,105 @@ img {
     margin-left: 20px;
     margin-right: 100px;
 }
+.texto-grande {
+    font-size: 70px;
+    color: #800080;
+    text-align: center;
+    margin: 0 auto; 
+}
+.barraporcent {
+    background-color: #e6e6fa;
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 250px; /* Ancho del rectángulo principal */
+    height: 10px; /* Altura del rectángulo principal */
+    position: relative; /* Posicionamiento relativo para el contenedor */
+    overflow: hidden; /* Esconde cualquier contenido que sobresalga */
+}
 
+.sub-barra {
+    background-color: #d8b4e2;
+    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
+    width: 87%; /* Ancho del rectángulo pequeño basado en un porcentaje */
+    height: 10px; /* Altura completa del rectángulo pequeño */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
+    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+}
+.sub1-barra {
+    background-color: #d8b4e2;
+    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
+    width: 70%; /* Ancho del rectángulo pequeño basado en un porcentaje */
+    height: 10px; /* Altura completa del rectángulo pequeño */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
+    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+}
+.sub2-barra {
+    background-color: #d8b4e2;
+    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
+    width: 50%; /* Ancho del rectángulo pequeño basado en un porcentaje */
+    height: 10px; /* Altura completa del rectángulo pequeño */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
+    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+}
+.sub3-barra {
+    background-color: #d8b4e2;
+    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
+    width: 45%; /* Ancho del rectángulo pequeño basado en un porcentaje */
+    height: 10px; /* Altura completa del rectángulo pequeño */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
+    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+}
+.sub4-barra {
+    background-color: #d8b4e2;
+    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
+    width: 30%; /* Ancho del rectángulo pequeño basado en un porcentaje */
+    height: 10px; /* Altura completa del rectángulo pequeño */
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
+    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+}
 .destination{
     width: 640px;
     height: 400px;
-    align-items: center;
+}
+
+.tenist{
+    height: 270px;
+    width:fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location-container {
+    display: flex;               /* Utiliza flexbox para alinear la imagen y el texto */
+    align-items: center;         /* Alinea verticalmente la imagen y el texto */
+    padding: 1px;               /* Añade un poco de relleno alrededor del contenedor */
+}
+
+.location-icon {
+    width: 20px;                 /* Define el tamaño de la imagen */
+    height: 20px;
+    margin-right: 8px;           /* Espacio entre la imagen y el texto */
+}
+
+.location-text {
+    font-size: 16px;             /* Tamaño de la fuente del texto */
+    color: #333;                 /* Color del texto */
+}
+
+.relat{
+    position:relative;
+}
+
+.flags{
+    width: 200px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .centerTXT{
@@ -19,10 +113,6 @@ img {
 
 .JustTXT{
     text-align: justify;
-}
-
-#sf{
-    background-color: rgb(255, 0, 149);
 }
    
 .circularimg {
@@ -35,13 +125,17 @@ img {
     display: flex;
 }
 
+.contenedor1{
+    height: 140px;
+    display: flex;
+}
+
 .vl {
     border-left: 6px solid rgb(148, 39, 133);
     margin-left: 50px;
     margin-right: 50px;
     height: auto;
 }
-
 .v2 {
     border-left: 2px solid rgb(148, 39, 133);
     margin-left: 50px;
@@ -55,54 +149,35 @@ h1{
     margin-bottom: 30px;
     text-align: center;
 }
-
-h2{
+h2, h3, h4{
     color: #800080; 
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-h3{
-    color: #800080; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h4{
-    color: #800080; 
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 nav{
     max-width: 4000px;
     margin: 10px;
-    background-color: hotpink;
+    background-color: #ff0095;
+    color: #e6e6fa;
     font-size: 20px;
     margin-top: 0px;
 }
 
-body{
-    background-image: url();
-    background-size: cover;
-}
 .menu-horizontal{
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-
 .menu-horizontal > li > a{
     display: block;
     padding: 15px 20px;
     color: lavender;
     text-decoration: none;
 }
-
 .menu-horizontal > li:hover{
     background-color: pink;
 }
-
 .menu-vertical{
     position: absolute;
     display: none;
@@ -110,26 +185,52 @@ body{
     width: 200px;
     background-color: thistle;
 }
-
-.menu-horizontal li:hover .menu-vertical{
+.menu-horizontal > li:hover .menu-vertical{
     display: block;
+    background-color: #d8b4e2;
 }
-
-.menu-vertical li:hover{
-    background-color: blueviolet;
+.menu-vertical > li:hover{
+    background-color: #800080;;
 }
-
 .menu-vertical li a{
     display: block;
     color: white;
     padding: 15px 15px 15px 20px;
+    background-color: #d8b4e2;
+}
+
+.centrado {
+    width: 50%; 
+    margin: 0 auto; 
+    border: 1px solid #800080; 
+    padding: 20px;
+}
+
+.centrado1 {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.centrado-enter {
+    width: 62%; 
+    margin: 0 auto; 
+    padding: 20px;
 }
 
 div {
     align-content: center;
     margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f7d1e3; /* Un color rosa claro para los bloques de contenido */
+    padding: 20px;
+    background-color: #f7d1e3;
+    border-radius: 5px;
+}
+
+.divint {
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f7d1e3;
     border-radius: 5px;
 }
 
@@ -137,12 +238,13 @@ table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    border: 8px solid #800080; 
 }
 
 th, td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #800080; /* Bordes morados */
+    border: 3px solid #800080;
 }
 
 hr{
@@ -150,6 +252,16 @@ hr{
 }
 
 p{
-    padding: 15px;
+    font-family: Georgia, serif;
+    padding: 1px;
     text-align: justify;
+    margin-right: 50px;
+    margin-left: 30px;
 }
+
+.CenterPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
