@@ -221,16 +221,8 @@ nav{
 div {
     align-content: center;
     margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f7d1e3;
-    border-radius: 5px;
-}
-
-.divint {
-    align-content: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #f7d1e3;
+    padding: 10px;
+    background-color: #f7d1e3; /* Un color rosa claro para los bloques de contenido */
     border-radius: 5px;
 }
 
