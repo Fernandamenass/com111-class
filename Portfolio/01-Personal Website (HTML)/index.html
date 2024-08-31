@@ -3,33 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <title>MyWebsite</title>
-    <link href="./css/styles.css" type="text/css" rel="stylesheet"/></head>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
 <body>
     <div class="contenedor">
         <img class="circularimg" src="./Images/YO.jpeg" alt="My picture" />
-        <div> <h1>Fernanda Mena Santos</h1>
+        <div><div class="texto-grande"> Fernanda Mena Santos</div>
             <p> I am a full time student at the <b>"Universidad Panamericana"</b>located 
                 in Calz. Nueva 49, Granja, 45010 Zapopan, Jal.
             </p>
         </div>
     </div>
     
-    <nav>
-        <ul class="menu-horizontal">
-            <li><a href="#">Perfil</a>
-                <ul class="menu-vertical">
-                    <li><a href="#">Backround</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Hobbies</a></li>
-                    <li><a href="#">Favorite Food</a></li>
-                    <li><a href="#">Entertainment</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Destinos</a></li>
-        </ul>
-    </nav>
+    <div class="sticky-top">
+        <nav>
+            <ul class="menu-horizontal">
+                <li><a href="index.html" target="blank"><b>PROFILE</b></a>
+                    <ul class="menu-vertical">
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Hobbies">Hobbies</a></li>
+                        <li><a href="#Favorite">Favorite Food</a></li>
+                        <li><a href="#Entertainment">Entertainment</a></li>
+                    </ul>
+                </li>
+                <li><a href="Destination.html" target="blank"><b>DESTINATIONS</b></a>
+                    <ul class="menu-vertical">
+                        <li><a href="Destination.html#California">Disneyland Resort</a></li>
+                        <li><a href="Destination.html#Orlando">Walt Disney World Resort</a></li>
+                        <li><a href="Destination.html#Tokyo">Tokyo Disney Resort</a></li>
+                        <li><a href="Destination.html#Paris">Disneyland Paris</a></li>
+                        <li><a href="Destination.html#HongKong">Hong Kong Disneyland</a></li>
+                        <li><a href="Destination.html#Shanghai">Shanghai Disney Resort</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>  
+    
 
     <div class="contenedor">
         <div>
@@ -50,7 +63,7 @@
                 </blockquote> </br>
             </div>
             <div>
-                <h2>Background</h2>
+                <h2 id="Backround">Background</h2>
                 <p> Since I was a little girl I've loved everything animated, my parents made me a Disney girl. 
                 When I started to choose a career I didn't know what to do because I really liked numbers, 
                 but at the same time I knew that I needed my career to be creative. That's why I chose 
@@ -58,21 +71,31 @@
                 aspiration is to be part of a Pixar movie.
                 </p>
             </div>
+            <div>
+                <h2 id="Skills">Skills</h2>
+                <ol type="I">
+                    <li> Rendering </br></br><div class="barraporcent"><div class="sub-barra"></div></div></li> 
+                    <li> Modeling </br></br><div class="barraporcent"><div class="sub1-barra"></div></div></li> 
+                    <li> Programming </br></br><div class="barraporcent"><div class="sub2-barra"></div></div></li> 
+                    <li> Rigging </br></br><div class="barraporcent"><div class="sub3-barra"></div></div></li>
+                    <li> Drawing </br></br><div class="barraporcent"><div class="sub4-barra"></div></div></li>
+                </ol> 
+            </div>
         </div>
         <div class="v2"></div>
         <div>
-            <h2>Education</h2>
+            <h2 id="Education">Education</h2>
             <div class="contenedor">
                 <ul>
                     <li> <em>2004 - 2009   </em> <b>Kinder Kin</b>
                         </br></br><img src="./Images/KinderKin.png" alt="Kinder Kin logo" />
-                    </li></br></br>
+                    </li></br></br></br></br></br></br>
                     <li> <em>2009 - 2021   </em> <b>Centro Escolar Los Altos</b>
                         </br></br><img src="./Images/LosAltos.png" width="150" alt="Los Altos logo" />
-                    </li></br></br>
+                    </li></br></br></br></br></br></br>
                     <li> <em>2021 - 2022   </em> <b>Kilgraston School</b>
                         </br></br><img src="./Images/Kilgraston.png" width="150" alt="Kilgraston School Logo" />
-                    </li></br></br>
+                    </li></br></br></br></br></br></br>
                     <li> <em>2022 - Now    </em> <b>Universidad  Panamericana</b>
                         </br></br><img src="./Images/UP.png" width="150" alt="Universidad Panamericana Logo" />
                     </li>
@@ -83,21 +106,10 @@
     <div>
 
     <div>
-        <h2>skills</h2>
-        <ol type="I">
-            <li> <b>87% -</b> Rendering </li> 
-            <li> <b>70% -</b> Modeling </li>
-            <li> <b>50% -</b> Programming </li>
-            <li> <b>45% -</b> Rigging </li>
-            <li> <b>30% -</b> Drawing </li>
-        </ol> 
-    </div>
-
-    <div>
-        <h2>Hobbies</h2>
-        <h3>Favorite Food</h3>
+        <h2 id="Hobbies">Hobbies</h2>
+        <h3 id="Favorite">Favorite Food</h3>
         <div class="contenedor">
-            <div>
+            <div class="centrado">
                 <h4> Top 5 cuisines</h4>
                     <ol> 
                         <li> Japanese </li>
@@ -108,7 +120,7 @@
                     </ol>
             </div>
             <div class="vl"></div>
-            <div>
+            <div class="centrado">
                 <h4> Bottom 3 cuisines </h4>
                     <ol start="19">
                         <li> German </li>
@@ -117,81 +129,172 @@
                     </ol>
             </div>
         </div>
-        <h3>Entertainment</h3>
+        <h3 id="Entertainment">Entertainment</h3>
         <ul>
             <li><h4>Books</h4>
-                <div class="contenedor">
-                    <img src="./Images/TheCruelPrince.jpg" alt="The Cruel Prince" />
-                    <img src="./Images/ToKillAKingdom.jpeg" alt="To Kill A Kingdom" />
-                    <img src="./Images/Seleccion.jpg" alt="The Selection" />
+                <div class="centrado-enter">
+                    <div class="contenedor">
+                        <img src="./Images/TheCruelPrince.jpg" alt="The Cruel Prince" />
+                        <img src="./Images/ToKillAKingdom.jpeg" alt="To Kill A Kingdom" />
+                        <img src="./Images/Seleccion.jpg" alt="The Selection" />
+                    </div>
                 </div>
             </li>
             <li><h4>Movies</h4>
-                <div class="contenedor">
-                    <img src="./Images/Baymax.jpg" alt="The Cruel Prince" />
-                    <img src="./Images/Clueless.jpg" alt="To Kill A Kingdom" />
-                    <img src="./Images/Avatar.jpg" alt="The Selection" />
+                <div class="centrado-enter">
+                    <div class="contenedor">
+                        <img src="./Images/Baymax.jpg" alt="The Cruel Prince" />
+                        <img src="./Images/Clueless.jpg" alt="To Kill A Kingdom" />
+                        <img src="./Images/Avatar.jpg" alt="The Selection" />
+                    </div>
                 </div>
             </li>
             <li><h4>TV Shows</h4></li>
+                <div class="centrado-enter">
+                    <div class="contenedor">
+                        <img src="./Images/Boy.jpeg" alt="Boy Meets World" />
+                        <img src="./Images/Dynasty.jpg" alt="Dynasty" />
+                        <img src="./Images/Lilo.jpeg" alt="Lilo & Stitch : The Series" />
+                    </div>
+                </div>
         </ul>
     </div>
 
     <div>
-        <h2 id="Birthdays"> Family Birthdays </h2> </br>
+        <h2 id="Players"> Favorite Tennis Players </h2> </br>
     
-        <table border="1">
+        <table>
             <thead>
                 <tr>
-                    <th colspan="2">Fullname</th>
-                    <th rowspan="2"> Birthday </th>
+                    <th colspan="6" class="centerTXT">Tennis Players</th>
                 </tr>
                 <tr>
-                    <th> Name </th>
-                    <th> Lastname </th>
+                    <th colspan="2"><img class="tenist" src="./Images/Federer.jpeg" ></img></th>
+                    <th colspan="2"><img class="tenist" src="./Images/Tsitsipas.jpeg" ></th>
+                    <th colspan="2"><img class="tenist" src="./Images/Kachanov.jpeg" ></th>
+                </tr>
+                <tr>
+                    <th class="centerTXT" colspan="2"> Roger Federer </th>
+                    <th class="centerTXT" colspan="2"> Stefanos Tsitsipas </th>
+                    <th class="centerTXT" colspan="2"> Karén Jachánov</th>
                 </tr>
             </thead> 
             <tbody> 
                 <tr>
-                    <td> Francisco Xavier  </td>
-                    <td> Mena </td>
-                    <td> October 24 </td>
+                    <td> Current Rank  </td>
+                    <td> -- </td>
+                    <td> Current Rank  </td>
+                    <td> #11 </td>
+                    <td> Current Rank  </td>
+                    <td> #22 </td>
                 </tr>
                 <tr>
-                    <td> Gabriela </td>
-                    <td> Santos </td>
-                    <td> September 30 </td>
+                    <td> Best Rank  </td>
+                    <td> #1 </td>
+                    <td> Best Rank  </td>
+                    <td> #1 </td>
+                    <td> Best Rank  </td>
+                    <td> #8 </td>
                 </tr>
                 <tr>
-                    <td> Fernanda </td>
-                    <td> Mena </td>
-                    <td> August 16 </td>
+                    <td> Birthday  </td>
+                    <td> August 8th </td>
+                    <td> Birthday  </td>
+                    <td> August 12th </td>
+                    <td> Birthday  </td>
+                    <td> May 21st </td>
                 </tr>
                 <tr>
-                    <td> Xavier </td>
-                    <td> Mena </td>
-                    <td> February 8 </td>
+                    <td> Age  </td>
+                    <td> 43 years </td>
+                    <td> Age  </td>
+                    <td> 26 years </td>
+                    <td> Age  </td>
+                    <td> 28 years </td>
                 </tr>
                 <tr>
-                    <td> Pablo Andrés </td>
-                    <td> Mena </td>
-                    <td> April 1 </td>
+                    <td> Country  </td>
+                    <td> Switzerland </td>
+                    <td> Country  </td>
+                    <td> Greece </td>
+                    <td> Country  </td>
+                    <td> Russia </td>
                 </tr>
             </tbody>
-            <tfoot> <caption> Table of birthdays </caption></tfoot>
+            <tfoot> <caption> My favorites tennis players </caption></tfoot>
         </table>
     </div>
+    
     <div>
         <h2> AGENDA </h2>
-        <form action="#" method="post"> 
-            <label for="Event">Event</label>
-            <input type="text" name="Event" />
-            <input type="text" placeholder="Event"/>
-            <input type="text" value="New event"/>
-            <label for="free"> Free time </label>
-            <input type="checkbox" name="free"/>
+        <form action="#" method="post">
+            <div class="contenedor">
+            <div div class="centrado1">
+            <div class="form-section">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <hr>
+            
+            <div class="form-section">
+                <label for="time-start">Hora de Inicio:</label>
+                <input type="time" id="time-start" name="time-start" required>
+            </div>
+            
+            <div class="form-section">
+                <label for="time-end">Hora de Fin:</label>
+                <input type="time" id="time-end" name="time-end" required>
+            </div>
+            <hr>
+            <div class="form-section">
+                <label for="activity">Actividad:</label>
+                <input type="text" id="activity" name="activity" required>
+            </div>
+            <div class="form-section">
+                <label for="place">Lugar:</label>
+                <input type="text" id="place" name="place" required>
+            </div>
+            </div>
+            
+            <hr>
+            <div class="v2"></div>
+            
+            <div div class="centrado1">
+            <div class="form-section">
+                <label for="type">Tipo:</label>
+                <select id="type" name="type" required>
+                    <option value="school">Escuela</option>
+                    <option value="personal">Personal</option>
+                    <option value="professional">Profesional</option>
+                    <option value="family">Familiar</option>
+                    <option value="other">Otro</option>
+                </select>
+            </div>
+            
+            <hr>
+            
+            <div class="form-section">
+                <label for="notes">Notas:</label>
+                <textarea id="notes" name="notes"></textarea>
+            </div>
+            
+            <div class="form-section">
+                <label for="flag">Bandera (Color):</label>
+                <input type="color" id="flag" name="flag">
+            </div>
+            
+            <hr>
+            
+            <div class="form-section">
+                <label for="free-busy">Libre/Ocupado:</label>
+                <input type="checkbox" id="free-busy" name="free-busy">
+                <label for="free-busy">Marcar como ocupado</label>
+            </div>
+            </div>
+            </div>
+            <button type="submit">Registrar</button>
         </form>
     </div>
-
 </body>
 </html>
