@@ -14,57 +14,57 @@ img {
 }
 .barraporcent {
     background-color: #e6e6fa;
-    border-radius: 10px; /* Esquinas redondeadas */
-    width: 250px; /* Ancho del rectángulo principal */
-    height: 10px; /* Altura del rectángulo principal */
-    position: relative; /* Posicionamiento relativo para el contenedor */
-    overflow: hidden; /* Esconde cualquier contenido que sobresalga */
+    border-radius: 10px;
+    width: 250px;
+    height: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .sub-barra {
     background-color: #d8b4e2;
-    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
-    width: 87%; /* Ancho del rectángulo pequeño basado en un porcentaje */
-    height: 10px; /* Altura completa del rectángulo pequeño */
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
-    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
-    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+    border-radius: 10px; 
+    width: 87%;
+    height: 10px;
+    position: absolute; 
+    top: 0;
+    left: 0;
 }
 .sub1-barra {
     background-color: #d8b4e2;
-    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
-    width: 70%; /* Ancho del rectángulo pequeño basado en un porcentaje */
-    height: 10px; /* Altura completa del rectángulo pequeño */
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
-    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
-    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+    border-radius: 10px;
+    width: 70%;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .sub2-barra {
     background-color: #d8b4e2;
-    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
-    width: 50%; /* Ancho del rectángulo pequeño basado en un porcentaje */
-    height: 10px; /* Altura completa del rectángulo pequeño */
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
-    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
-    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+    border-radius: 10px; 
+    width: 50%;
+    height: 10px;
+    position: absolute; 
+    top: 0;
+    left: 0;
 }
 .sub3-barra {
     background-color: #d8b4e2;
-    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
-    width: 45%; /* Ancho del rectángulo pequeño basado en un porcentaje */
-    height: 10px; /* Altura completa del rectángulo pequeño */
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
-    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
-    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+    border-radius: 10px; 
+    width: 45%; 
+    height: 10px;
+    position: absolute; 
+    top: 0; 
+    left: 0;
 }
 .sub4-barra {
     background-color: #d8b4e2;
-    border-radius: 10px; /* Esquinas redondeadas del rectángulo pequeño */
-    width: 30%; /* Ancho del rectángulo pequeño basado en un porcentaje */
-    height: 10px; /* Altura completa del rectángulo pequeño */
-    position: absolute; /* Posicionamiento absoluto dentro del contenedor */
-    top: 0; /* Alinea el rectángulo pequeño con la parte superior */
-    left: 0; /* Alinea el rectángulo pequeño con la parte izquierda */
+    border-radius: 10px; 
+    width: 30%; 
+    height: 10px; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
 }
 .destination{
     width: 640px;
@@ -80,20 +80,20 @@ img {
 }
 
 .location-container {
-    display: flex;               /* Utiliza flexbox para alinear la imagen y el texto */
-    align-items: center;         /* Alinea verticalmente la imagen y el texto */
-    padding: 1px;               /* Añade un poco de relleno alrededor del contenedor */
+    display: flex;               
+    align-items: center;         
+    padding: 1px;              
 }
 
 .location-icon {
-    width: 20px;                 /* Define el tamaño de la imagen */
+    width: 20px;                
     height: 20px;
-    margin-right: 8px;           /* Espacio entre la imagen y el texto */
+    margin-right: 8px;     
 }
 
 .location-text {
-    font-size: 16px;             /* Tamaño de la fuente del texto */
-    color: #333;                 /* Color del texto */
+    font-size: 16px;        
+    color: #333;              
 }
 
 .relat{
@@ -222,7 +222,7 @@ div {
     align-content: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f7d1e3; /* Un color rosa claro para los bloques de contenido */
+    background-color: #f7d1e3;
     border-radius: 5px;
 }
 
