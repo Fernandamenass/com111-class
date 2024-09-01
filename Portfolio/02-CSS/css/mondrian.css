@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background-color: #e3e3e3; 
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #b8bcdb;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.regresar{
+    background-color: #182548;
+    align-content: center;
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.Ejercicio{
+    background-color: #182548;
+    align-content: center;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.PaintingBox{
+    align-content: center;
+    background-color:  #4a61a6;
+    height: 450px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Piet{
+    width: 636px;
+    height: 369px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    position: relative;
+}
+
+.BlueBox {
+    width: 192px;
+    height: 88px;
+    background-color: #0e4696;
+    position: absolute;
+    top: 250px;
+    left: 42px;
+}
+
+.YellowBox {
+    width: 128px;
+    height: 36px;
+    background-color: #e9be00;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.RedBox {
+    width: 188px;
+    height: 199px;
+    background-color: #c80000;
+    position: absolute;
+    top: 43px;
+    left: 310px;
+}
+
+.LineaHorizontal1Arriba {
+    border-top: 10px solid black;
+    width: 405px;
+    position: absolute;
+    top: 33px; 
+    left: 233px;
+}
+
+.LineaHorizontal2Arriba {
+    border-top: 10px solid black;
+    width: 638px;
+    position: absolute;
+    top: 242px;
+    left: 0px;
+}
+
+.LineaHorizontal3Arriba {
+    border-top: 10px solid black;
+    width: 305px;
+    position: absolute;
+    top: 337px;
+    left: 0px;
+}
+
+.LineaVertical1Left {
+    border-left: 10px solid rgb(0, 0, 0);
+    height: 369px;
+    position: absolute;
+    left: 33px;
+    top: 0px;
+}
+
+.LineaVertical2Left {
+    border-left: 10px solid rgb(0, 0, 0);
+    height: 369px;
+    position: absolute;
+    left: 233px;
+    top: 0px;
+}
+
+.LineaVertical3Left {
+    border-left: 10px solid rgb(0, 0, 0);
+    height: 369px;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+.LineaVertical4Left {
+    border-left: 10px solid rgb(0, 0, 0);
+    height: 369px;
+    position: absolute;
+    left: 498px;
+    top: 0px;
+}
