@@ -1,3 +1,118 @@
 body {
     margin: 0;
+    background-color: #e3e3e3; 
+}
+
+.regresar{
+    background-color: #182548;
+    align-content: center;
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.Ejercicio{
+    background-color: #182548;
+    align-content: center;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #b8bcdb;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.BoxExe1{
+    align-content: center;
+    background-color: #4a61a6;
+    height: 700px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ExeHorizontal{
+    width: 200px;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    position: relative;
+}
+
+.RedBox3{
+    width: 200px;
+    height: 200px;
+    background-color: #c80000;
+    position: relative;
+    left:400px;
+}
+
+.BlueBox3{
+    width: 200px;
+    height: 200px;
+    background-color: #003a86;
+    position: relative;
+    top:-200px;
+}
+
+.YellowBox3{
+    width: 200px;
+    height: 200px;
+    background-color: #e9be00;
+    position: relative;
+    top:-400px;
+    left:200px;
+}
+
+.RedBoxOrg3{
+    width: 200px;
+    height: 200px;
+    background-color: #c80000;
+    position: relative;
+}
+
+.BlueBoxOrg3{
+    width: 200px;
+    height: 200px;
+    background-color: #003a86;
+    position: relative;
+}
+
+.YellowBoxOrg3{
+    width: 200px;
+    height: 200px;
+    background-color: #e9be00;
+    position: relative;
+}
+
+.Exe2{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    position: relative;
 }
