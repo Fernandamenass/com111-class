@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/RecetarioLogo.png" alt="Logo" width="20" height="24" class="d-inline-block align-text-top">
+                Recetario
+            </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <!-- Card -->
+    <div class="row justify-content-center">
+        <div class="col-md-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/bebidas.jpeg" class="imgrecetas" alt="Bebida">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Bebidas</h5>
+                  <!-- Tooltip -->
+                  <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+                            new bootstrap.Tooltip(tooltipTriggerEl);
+                        });
+                    });
+                    </script>
+                  <a type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Working on it">
+                    Visit Page
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 mt-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Postre.jpeg" class="imgrecetas" alt="Postre">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Postre</h5>
+                  <!-- Single Button -->
+                  <a href="Postres.html" class="btn btn-primary">Visit Page</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- Accordion -->
+    <h2>Preguntas frecuentes</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ¿Cómo puedo buscar una receta específica?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Puedes utilizar el buscador ubicado en la parte superior de la página. Simplemente escribe el nombre del plato, un ingrediente principal o una palabra 
+                clave relacionada con la receta que buscas. También puedes explorar nuestras categorías de recetas para encontrar lo que necesitas.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ¿Puedo modificar las cantidades de los ingredientes?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">¡Por supuesto! Las recetas son solo una guía. Puedes ajustar las cantidades de los ingredientes según tus preferencias y la cantidad de personas que vayas
+                 a servir. Te recomendamos utilizar una balanza de cocina para mayor precisión.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ¿Puedo enviar mis propias recetas?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> ¡Nos encantaría conocer tus recetas! Si deseas compartir tus creaciones culinarias con nuestra comunidad, puedes ponerte en contacto con nosotros a través 
+                del formulario de contacto o enviarnos un correo electrónico </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spinner -->
+      <div class="d-flex align-items-center">
+        <strong role="status">Loading...</strong>
+        <div class="spinner-border ms-auto" aria-hidden="true"></div>
+      </div>
+</body>
+</html>

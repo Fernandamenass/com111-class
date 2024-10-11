@@ -5,17 +5,17 @@ Bootstrap is a very dynamic and responsive library.
 As explained in class this library allows for quick design and implementation given a big list of examples and clear explanation on how to customize them.
 In this exercise you need to implement at least one of each of these components
 
-- Navbar and/or tabs
-- Accordion
-- Buttons
+- Navbar and/or tabs (Done)
+- Accordion (Done)
+- Buttons (Done)
 - Button groups
-- Card
+- Card (Done)
 - Modal
 - Pop over
 - Progress
-- Spinner
-- Tooltips
-- Iconic link
+- Spinner (Done)
+- Tooltips (Done)
+- Iconic link 
 - Floating labels
 - Borders & background
 

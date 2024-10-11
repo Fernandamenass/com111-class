@@ -1,0 +1,29 @@
+/* Estilos globales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0d7ff;
+    color: #333;
+    padding-top: 56px;
+}
+
+.imgrecetas {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor de la tarjeta */
+    height: 200px; /* Establece una altura fija */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción y cubra el área */
+}
+
+.btn {
+    color: rgb(219, 173, 210);
+    background-color: rgb(107, 62, 137);
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center; 
+}
+
+div{
+    margin-top: 10px;
+}
+
