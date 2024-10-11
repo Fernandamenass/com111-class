@@ -8,14 +8,14 @@ In this exercise you need to implement at least one of each of these components
 - Navbar and/or tabs (Done)
 - Accordion (Done)
 - Buttons (Done)
-- Button groups
+- Button groups (Done)
 - Card (Done)
-- Modal
-- Pop over
-- Progress
+- Modal (Done)
+- Pop over (Done)
+- Progress (Done)
 - Spinner (Done)
 - Tooltips (Done)
-- Iconic link 
+- Iconic link (Done)
 - Floating labels
 - Borders & background
 
@@ -26,7 +26,7 @@ Select 5 elements from the following list and make a small demo of how would you
 ---
 
 - Color mode
-- Navbar with search field
+- Navbar with search field (Done)
 - Sticky footer
 - Collapsible sidebar
 - Drop downs with icon
@@ -36,7 +36,7 @@ Select 5 elements from the following list and make a small demo of how would you
 - Badges with image and action
 - Breadcrumbs with icons
 - Loading buttons
-- Carousel with title and text
+- Carousel with title and text (Done)
 - Hero with centered screenshot
 - Scrollspy
 - Toast
