@@ -1,21 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0d7ff;
+    background-color: #c8d6c0;
     color: #333;
     padding-top: 56px;
 }
 
 .imgrecetas {
-    width: 100%; /* Ajusta el ancho al 100% del contenedor de la tarjeta */
-    height: 200px; /* Establece una altura fija */
-    object-fit: cover; /* Asegura que la imagen mantenga su proporción y cubra el área */
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #5bc0de;
 }
 
 .btn {
-    color: rgb(219, 173, 210);
-    background-color: rgb(107, 62, 137);
-    border: 2px solid rgb(227, 9, 183);
-    
+    border: 2px solid rgb(101, 165, 255);
+    background-color: #5bc0de;
+    color: #fff;
     display: flex;
     justify-content: center;
 }
@@ -27,15 +27,11 @@ body {
 }
 
 .btn:hover {
-    background-color: #d63384;
+    background-color: #335c3b;;
 }
 
 .text-center {
     text-align: center; 
-}
-
-div{
-    margin-top: 10px;
 }
 
 .border{
@@ -52,4 +48,29 @@ div{
     bottom: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.progress {
+    background-color: #fffacd;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #335c3b;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.green-square {
+    background-color: #335c3b;;
+    padding: 20px; 
+    text-align: center; 
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    color: #fffacd;
 }
