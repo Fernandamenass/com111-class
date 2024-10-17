@@ -6,7 +6,7 @@ These exercises will just show multiple ways in which JS can interact with our w
 
 ---
 
-## Clock - 2 pts
+## Clock - 2 pts (Done)
 
 Complete the clock exercise by completing the tasks requested in the code by the _TODO_ labels.
 
@@ -18,7 +18,7 @@ Solve for the requested fibonacci number.
 
 ---
 
-## Images - 1 pt
+## Images - 1 pt (Done)
 
 Move the image around the screen using the controls. Make sure that it always stay inside the viewport
 
