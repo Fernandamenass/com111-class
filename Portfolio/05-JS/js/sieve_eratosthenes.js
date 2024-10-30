@@ -3,19 +3,38 @@
     to find all of the smaller primes (below 10 million or so).
 */
 
-// TODO: Adjust this script so it can work with the sieve.html file.
+var sieve = function () {
+    "use strict";
 
-var sieve = function (n) {
-  "use strict";
 
-  var array = [],
-    primes = [],
-    i,
-    j;
+    var array = [], primes = []
+    var p = 2
+    var answer = document.getElementById("answer");
+    var n = parseInt(document.getElementById("Num").value);
 
-  // TODO: Implement the sieve of eratosthenes algorithm to find all the prime numbers under the given number.
 
-  return primes;
+    for (var index = 2; index < n+1; index++) {
+        array.push(index)
+    }
+
+    array.forEach(element => {
+        if (element != 0) {
+            p = element
+        }
+        for (var index = p; index < n+1; index++) {
+            if(array[index] % p === 0)
+                array[index] = 0
+        }    
+    });
+
+    array.forEach(element => {
+        if(element != 0) {
+            primes.push(element)
+        }
+    });
+    console.log(array)
+    answer.innerHTML = primes
+    return primes;
 };
 
-console.log(sieve(1000000));
+

@@ -1,25 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
     <title>JS Exercise - Sieve of Erathostenes</title>
+    <script type="text/javascript" src="js/sieve_eratosthenes.js"></script>
 </head>
-
 <body>
     <h1>Sieve of Erathostenes</h1>
     <hr />
-    <p>Using the sieve_erathosthenes.js file, adjust the script so you can introduce a number into the input field and
-        then show all the prime numbers under the given number.</p>
+    <p>
+      Using the sieve_erathosthenes.js file, adjust the script so you can
+      introduce a number into the input field and then show all the prime
+      numbers under the given number.
+    </p>
     <div>
-        <label for="num">Write a number: </label>
-        <input type="number" id="num" />
-        <button id="btn"> Go </button>
-        <br />
-        <strong>Primes: </strong><span id="primes"></span>
+        <input id="Num" type="text">
+        <button onclick="sieve()">Enter a number</button>
+        <ul id="answer"></ul>
     </div>
 </body>
-
 </html>

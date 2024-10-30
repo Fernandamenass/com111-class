@@ -4,6 +4,13 @@ These exercises will just show multiple ways in which JS can interact with our w
 
 **You must complete at least 8 points for full credit**
 
+Ejercicios completados (8):
+
+- Clock (2)
+- Images (1)
+- Sieve (3)
+- Prime (2)
+
 ---
 
 ## Clock - 2 pts (Done)
@@ -44,7 +51,7 @@ Get the next prime value after the number provided.
 
 ---
 
-## Pig Latin - 2 pts
+## Pig Latin - 2 pts (NO)
 
 Pig Latin is a language game or argot in which words in English are altered, usually by adding a fabricated suffix or by moving the onset or initial consonant or consonant cluster of a word to the end of the word and adding a vocalic syllable to create such a suffix.
 
@@ -52,7 +59,7 @@ Transform the input received into its pig latin version. Fix or complete the cod
 
 ---
 
-## Sieve of Eratosthenes - 3 pts
+## Sieve of Eratosthenes - 3 pts (Done)
 
 Get the value provided and then get all the prime numbers below that one.
 
