@@ -1,4 +1,4 @@
-const sw = [
+const peliculas = [
   {
     episode: "1",
     title: "The phantom menace",
@@ -19,7 +19,7 @@ const sw = [
     best_character: {
       name: "Obi-wan Kenobi",
       affiliation: "Jedi",
-      image: "Obi-wan_Kenobi.png",
+      image: "Obi-wan_Kenobi.jpg",
       bio: "Obi-Wan Kenobi was a legendary Force-sensitive human male Jedi Master who served on the Jedi High Council during the final years of the Republic Era. As a Jedi General, Kenobi served in the Grand Army of the Republic that fought against the Separatist Droid Army during the Clone Wars. Kenobi, however, was forced into exile as a result of the Great Jedi Purge. As a mentor, Kenobi was responsible for training two members of the Skywalker family, Anakin and Luke Skywalker, both of whom served in turn as his Padawan in the ways of the Force.",
     },
   },
@@ -31,7 +31,7 @@ const sw = [
     best_character: {
       name: "Anakin Skywalker",
       affiliation: "Sith",
-      image: "Anakin_Skywalker.png",
+      image: "Anakin_Skywalker.webp",
       bio: "Anakin Skywalker was a legendary Force-sensitive human male who was a Jedi Knight of the Galactic Republic and the prophesied Chosen One of the Jedi Order, destined to bring balance to the Force. Also known as 'Ani' during his childhood, Skywalker earned the moniker 'Hero With No Fear' from his accomplishments in the Clone Wars. His alter ego, Darth Vader, the Dark Lord of the Sith, was created when Skywalker turned to the dark side of the Force, pledging his allegiance to the Sith Lord Darth Sidious at the end of the Republic Era.",
     },
   },
@@ -73,4 +73,4 @@ const sw = [
   },
 ];
 
-export default sw;
+export default peliculas;

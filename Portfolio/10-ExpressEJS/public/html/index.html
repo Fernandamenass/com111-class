@@ -11,10 +11,17 @@
 <body>
     <img src="../images/StarLion.png" alt="lion brewery" />
     <h1>Welcome to my landing page</h1>
-    <form>
+    
+    <form action="/login" method="GET">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" />
-        <input type="submit" />
+        <input type="submit" value="Submit via GET" />
+    </form>
+
+    <form action="/login" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <input type="submit" value="Submit via POST" />
     </form>
 </body>
 
