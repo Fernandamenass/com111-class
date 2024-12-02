@@ -1,19 +1,109 @@
 .gradient-background {
   background: linear-gradient(300deg, #feffff, #070100, #ff4c68);
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  color: white;
 }
 
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.feature-icon {
+  background: #f8f9fa;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.feature-img {
+  height: 30px;
+  width: auto;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 5px auto 2px;
+}
+
+.testimonial-text {
+  margin-bottom: 5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  margin-top: 2rem;
+}
+
+.client-logo {
+  height: 100%;
+  object-fit: contain;
+}
+
+.custom-card {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transition: transform 0.3s;
+}
+
+.custom-card:hover {
+  transform: scale(1.02);
+}
+
+.pricing-dark {
+  background-color: #212529;
+  color: white;
+}
+
+footer {
+  background: #212529;
+  color: white;
+  padding: 3rem 0 0 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .client-logo {
+    width: calc(100% / 12 * 3);
+  }
+}
+
+@media (min-width: 769px) {
+  .client-logo {
+    width: calc(100% / 12 * 3);
   }
 }
